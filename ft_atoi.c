@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int         ft_atoi(const char *str)
+int ft_atoi(const char *str)
 {
     int             i;
     long long int   nbr;
