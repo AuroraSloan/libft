@@ -2,11 +2,11 @@
 
 void    *ft_memcpy(void *dst, const void *src, size_t n)
 {
-    char        *dst_ptr;
-    const char  *src_ptr;
+    unsigned char        *dst_ptr;
+    const unsigned char  *src_ptr;
 
-    dst_ptr = dst;
-    src_ptr = src;
+    dst_ptr = (unsigned char *)dst;
+    src_ptr = (const unsigned char *)src;
     if (dst == '\0' && src == '\0')
         return (NULL);
     while (n > 0)
