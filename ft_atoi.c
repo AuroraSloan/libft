@@ -1,3 +1,5 @@
+#include "libft.h"
+
 int         ft_atoi(const char *str)
 {
     int             i;
@@ -13,7 +15,7 @@ int         ft_atoi(const char *str)
     if (str[i] == '-' || str[i] == '+')
         if (str[i++] == '-')
             sign = -1; 
-    while (str[i] >= '0' && str[i] <= '9' && str[i])
+    while (ft_isdigit(str[i]) && str[i])
     {
         nbr = nbr * 10 + (str[i++] - '0');
         if (nbr < 0)
