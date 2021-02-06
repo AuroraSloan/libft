@@ -20,5 +20,13 @@ all: $(NAME)
 
 bonus: $(B_OBJS) $(NAME)
 	ar rc $(NAME) $(B_OBJS)
-	
+
+clean:
+    rm -rf $(OBJS) $(B_OBJS)
+
+fclean: clean
+    rm -rf $(NAME)
+
+re: fclean all 
+
 .PHONY: all clean fclean re bonus
