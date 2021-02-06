@@ -14,7 +14,7 @@ char    *ft_itoa(int n)
         len++;
     }
     len = n <= 0 ? len + 1 : len;
-    if (!(str = (char*)malloc(sizeof(*str) * (len + 1))))
+    if (!(str = (char*)malloc(sizeof(*str) * len + 1)))
         return (NULL);
     str[len--] = '\0';
     tmp = (n < 0) ? -n : n;
