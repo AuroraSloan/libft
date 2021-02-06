@@ -22,10 +22,10 @@ bonus: $(B_OBJS) $(NAME)
 	ar rc $(NAME) $(B_OBJS)
 
 clean:
-    rm -rf $(OBJS) $(B_OBJS)
+	rm -rf $(OBJS) $(B_OBJS)
 
 fclean: clean
-    rm -rf $(NAME)
+	rm -rf $(NAME)
 
 re: fclean all 
 
