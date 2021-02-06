@@ -2,7 +2,7 @@
 
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
-	unsigned char	*dst_ptr;
+	unsigned char		*dst_ptr;
 	const unsigned char	*src_ptr;
 
 	dst_ptr = (unsigned char *)dst;
