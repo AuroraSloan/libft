@@ -11,10 +11,10 @@ static char	**free_err(char **arr, int err_len)
 	return (NULL);
 }
 
-static char *ft_strldup(char const *s_ptr, int l)
+static char	*ft_strldup(char const *s_ptr, int l)
 {
 	char	*dst;
-	int	i;  
+	int	i;
 
 	if (!s_ptr || !(dst = (char*)malloc(sizeof(*dst) * l + 1)))
 		return (NULL);
@@ -79,4 +79,4 @@ char	**ft_split(char const *s, char c)
 	}
 	dst[j] = 0;
 	return (dst);
-} 
+}
