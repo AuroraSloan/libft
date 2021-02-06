@@ -6,6 +6,6 @@ void    ft_lstdelone(t_list *lst, void (*del)(void*))
         return ;
     del(lst->content);
     lst->content = NULL;
-l   st->next = NULL;
+    lst->next = NULL;
     free(lst);
 }
