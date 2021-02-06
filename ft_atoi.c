@@ -11,7 +11,7 @@ int	ft_atoi(const char *str)
 	sign = 1;
 	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
 		str[i] == '\f' || str[i] == '\r' || str[i] == '\v')
-			i++;
+		i++;
 	if (str[i] == '-' || str[i] == '+')
 		if (str[i++] == '-')
 			sign = -1;
