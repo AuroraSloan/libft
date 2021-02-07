@@ -18,5 +18,5 @@ The goal of this project was to start my own C library that I can use in later p
 
 |Linked List    |               |              |          |          |
 |---------------|---------------|--------------|----------|----------|
-|ft_lstadd_back |ft_lstclear    |ft_lstiter    |ft_lstmap |ft_lstsize|
-|ft_lstadd_front|ft_lstdelone   |ft_listlast   |ft_lstnew |          |
+|ft_lstadd_back |ft_lstadd_front|ft_lstiter    |ft_lstmap |ft_lstsize|
+|ft_lstclear    |ft_lstdelone   |ft_listlast   |ft_lstnew |          |
