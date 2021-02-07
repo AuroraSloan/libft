@@ -25,6 +25,8 @@ Using malloc, free, and write as needed was permitted.
 |ft_putchar_fd|ft_putnbr_fd |ft_split     |ft_strmapi   |ft_substr    |
 
 # Linked list functions
+Descriptions for these functions can be found in their .c files.
+
 Using malloc, free, and write as needed was permitted.
 ||||||
 |---------------|---------------|--------------|----------|-------------|
