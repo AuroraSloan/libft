@@ -4,18 +4,16 @@ Created a library called libft that include the following function.
 
 # library functions
 
-```
-|Stdlib   |
-|---------|
-|calloc   |
-|bzero    |
-|memset   |
-|memcpy   |
-```
+|Stdlib                                               |
+|-----------------------------------------------------|
+|calloc   |memccpy |memmove |memchr  |memcmp  |strlen | 
+|bzero    |strlcpy |strlcat |strchr  |strrchr |strnstr| 
+|memset   |isdigit |isalnum |isascii |isprint |toupper| 
+|memcpy   |strncmp |atoi    |isalpha |tolower |strdup |
 
-memccpy, memmove, memchr, memcmp, strlen, 
-strlcpy, strlcat, strchr, strrchr, strnstr, strncmp, atoi, isalpha, 
-isdigit, isalnum, isascii, isprint, toupper, tolower, strdup
+
+ 
+
 
 Other:
 itoa, split, strtrim, strjoin, strmapi, substr, putchar_fd, putstr_fd,
