@@ -1,3 +1,5 @@
+//Allocates and reutrns a string representing the integer received as an arguments.
+
 #include "libft.h"
 
 char	*ft_itoa(int n)
