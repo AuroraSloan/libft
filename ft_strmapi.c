@@ -1,3 +1,6 @@
+/*Applies the function 'f' to each character of the string 's' to create a
+new string resulting from successive applications of 'f'.*/
+
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f) (unsigned int, char))
