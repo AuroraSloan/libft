@@ -16,7 +16,7 @@ The goal of this project was to start my own C library that I can use in later p
 |ft_itoa      |ft_putendl_fd|ft_putstr_fd |ft_strjoin   |ft_strtrim   | 
 |ft_putchar_fd|ft_putnbr_fd |ft_split     |ft_strmapi   |ft_substr    |
 
-|Linked List    |               |              |          |          |
-|---------------|---------------|--------------|----------|----------|
-|ft_lstadd_back |ft_lstadd_front|ft_lstiter    |ft_lstmap |ft_lstsize|
-|ft_lstclear    |ft_lstdelone   |ft_listlast   |ft_lstnew |          |
+|Linked List    |               |              |          |             |
+|---------------|---------------|--------------|----------|-------------|
+|ft_lstadd_back |ft_lstadd_front|ft_lstiter    |ft_lstdelone |ft_lstsize|
+|ft_lstclear    |ft_lstmap      |ft_listlast   |ft_lstnew    |          |
