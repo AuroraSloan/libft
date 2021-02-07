@@ -18,14 +18,14 @@ These functions work as described in the man page.
 
 # Other functions
 Descriptions for these functions can be found in their .c files.
-|Other        |             |             |             |             |
+|        |             |             |             |             |
 |-------------|-------------|-------------|-------------|-------------|
 |ft_itoa      |ft_putendl_fd|ft_putstr_fd |ft_strjoin   |ft_strtrim   | 
 |ft_putchar_fd|ft_putnbr_fd |ft_split     |ft_strmapi   |ft_substr    |
 
-#Linked list functions
+# Linked list functions
 Descriptions for these functions can be found in their .c files.
-|Linked List    |               |              |          |             |
+|   |               |              |          |             |
 |---------------|---------------|--------------|----------|-------------|
 |ft_lstadd_back |ft_lstadd_front|ft_lstiter    |ft_lstdelone |ft_lstsize|
 |ft_lstclear    |ft_lstmap      |ft_listlast   |ft_lstnew    |          |
