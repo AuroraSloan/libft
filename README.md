@@ -5,7 +5,8 @@ The use of global variables and the "libtool" command was prohibited in this pro
 
 # Standard library functions
 These functions work as described in the man page.
-<Enter>It was prohibited to to use any external functions except for "malloc" which was only allowed for strdup and calloc.
+
+It was prohibited to to use any external functions except for "malloc" which was only allowed for strdup and calloc.
 ||||||
 |------------|------------|-------------|------------|-------------|
 |ft_atoi     |ft_isacii   |ft_memcmp    |ft_strdup   |ft_strnstr   | 
@@ -16,6 +17,7 @@ These functions work as described in the man page.
 
 # Other functions
 Descriptions for these functions can be found in their .c files.
+
 Using malloc, free, and write as needed was permitted.
 ||||||
 |-------------|-------------|-------------|-------------|-------------|
