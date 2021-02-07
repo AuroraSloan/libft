@@ -1,6 +1,6 @@
 # libft
 
-Created a library called libft that include the following function.
+The goal of this project was to start my own C library that I can use in later projects and continue to build on as I move through the 42 program. 
 
 # library functions
 |Stdlib      |            |             |            |             |
