@@ -2,8 +2,15 @@
 
 Created a library called libft that include the following function.
 
-Stdlib:
-calloc, bzero, memset, memcpy, memccpy, memmove, memchr, memcmp, strlen, 
+# library functions
+
+class Stdlib{
+	calloc
+	bzero
+	memset
+	memcpy
+}
+memccpy, memmove, memchr, memcmp, strlen, 
 strlcpy, strlcat, strchr, strrchr, strnstr, strncmp, atoi, isalpha, 
 isdigit, isalnum, isascii, isprint, toupper, tolower, strdup
 
