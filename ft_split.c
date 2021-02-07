@@ -1,3 +1,5 @@
+//Allocates and resturns an array of strings obtained by splitting 's' using the character 'c' as a delimiter. The array is ended by a NULL pointer.
+
 #include "libft.h"
 
 static char	**free_err(char **arr, int err_len)
