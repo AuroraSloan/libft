@@ -4,8 +4,8 @@ Created a library called libft that include the following function.
 
 # library functions
 
-|Stdlib                                               |
-|-----------------------------------------------------|
+|Stdlib   |        |        |        |        |       |
+|---------|--------|--------|--------|--------|-------|
 |calloc   |memccpy |memmove |memchr  |memcmp  |strlen | 
 |bzero    |strlcpy |strlcat |strchr  |strrchr |strnstr| 
 |memset   |isdigit |isalnum |isascii |isprint |toupper| 
