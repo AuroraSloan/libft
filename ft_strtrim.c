@@ -1,3 +1,6 @@
+//Allocates and reutrns a copy of 's1' with the characters specified in 'set' removed from the
+//beginning and the end of the string.
+
 #include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
