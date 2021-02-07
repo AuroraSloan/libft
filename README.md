@@ -5,18 +5,18 @@ Created a library called libft that include the following function.
 # library functions
 |Stdlib      |            |             |            |             |
 |------------|------------|-------------|------------|-------------|
-|calloc      |isdigit     |strchr       |strnstr     |atoi         | 
-|bzero       |isalnum     |strlcat      |strrchr     |memchr       |
-|memset      |isascii     |strlcpy      |strdup      |strncmp      |
-|memcpy      |isprint     |strlen       |tolower     |memmove      |
-|memccpy     |toupper     |memcmp       |isalpha     |             |
+|ft_calloc   |ft_isdigit  |ft_strchr    |ft_strnstr  |ft_atoi      | 
+|ft_bzero    |ft_isalnum  |ft_strlcat   |ft_strrchr  |ft_memchr    |
+|ft_memset   |ft_isascii  |ft_strlcpy   |ft_strdup   |ft_strncmp   |
+|ft_memcpy   |ft_isprint  |ft_strlen    |ft_tolower  |ft_memmove   |
+|ft_memccpy  |ft_toupper  |ft_memcmp    |ft_isalpha  |             |
 
-|Other       |            |             |            |             |
-|------------|------------|-------------|------------|-------------|
-|itoa        |split       |strtrim      |strjoin     |putnbr_fd    | 
-|strmapi     |substr      |putstr_fd    |putendl_fd  |             |
+|Other       |            |             |             |             |
+|------------|------------|-------------|-------------|-------------|
+|ft_itoa     |ft_split    |ft_strtrim   |ft_strjoin   |ft_putnbr_fd | 
+|ft_strmapi  |ft_substr   |ft_putstr_fd |ft_putendl_fd|             |
 
-|Linked List |            |             |            |             |
-|------------|------------|-------------|------------|-------------|
-|lstnew      |lstadd_front|lstadd_back  |lstlast     |lstmap       |
-|lstadd_back |lstdelone   |lstclear     |lstiter     |             |
+|Linked List   |               |              |          |         |
+|--------------|---------------|--------------|----------|---------|
+|ft_lstnew     |ft_lstadd_front|ft_lstadd_back|ft_lstlast|ft_lstmap|
+|ft_lstadd_back|ft_lstdelone   |ft_lstclear   |ft_lstiter|         |
