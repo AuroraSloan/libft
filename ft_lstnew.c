@@ -1,3 +1,5 @@
+//Allocates and returns a new element.
+
 #include "libft.h"
 
 t_list	*ft_lstnew(void *content)
