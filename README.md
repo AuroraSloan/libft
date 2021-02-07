@@ -4,18 +4,13 @@ Created a library called libft that include the following function.
 
 # library functions
 
-```ditaa {cmd=true args=["-E"]}
-+---------+
+```
 |Stdlib   |
-+---------+
+|---------|
 |calloc   |
-+---------+
 |bzero    |
-+---------+
 |memset   |
-+---------+
 |memcpy   |
-+---------+
 ```
 
 memccpy, memmove, memchr, memcmp, strlen, 
