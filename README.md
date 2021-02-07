@@ -40,7 +40,7 @@ git clone https://github.com/AuroraSloan/libft.git
 ## Usage
 ```bash
 make - compiles library
-make clean - removes all *.o files
-make fclean - removes all *.o files and library
-make re - removes all *.o files and library before recompiling library
+make clean - removes all .o files
+make fclean - removes all .o files and library
+make re - removes all .o files and library before recompiling library
 ```
