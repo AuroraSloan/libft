@@ -1,4 +1,4 @@
-// Returns the amount of digits in a given number.
+//Returns the amount of digits in a given number.
 
 #include "libft.h"
 
