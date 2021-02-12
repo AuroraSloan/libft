@@ -1,3 +1,5 @@
+//Outputs the integer 'n' and returns number of digits printed.
+
 #include "libft.h"
 
 size_t	ft_putnbr(long long n)
