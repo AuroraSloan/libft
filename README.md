@@ -23,6 +23,7 @@ Using malloc, free, and write as needed was permitted.
 |---------------|----------------|--------------|-------------|-------------|
 |ft_itoa        |ft_putendl_fd   |ft_putstr_fd  |ft_strjoin   |ft_strtrim   |
 |ft_putchar_fd  |ft_putnbr_fd    |ft_split      |ft_strmapi   |ft_substr    |
+|ft_numlen      |ft_putnbr       |              |             |             |
 
 ### Linked list functions
 Descriptions for these functions can be found in their .c files.
