@@ -2,7 +2,7 @@
 
 The goal of this project was to start my own C library that I can use in later projects and continue to build on as I move through the 42 program.
 The use of global variables and the "libtool" command was prohibited in this project.
-
+|----
 ### Standard library functions
 These functions work as described in the man page.
 
