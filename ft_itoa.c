@@ -1,4 +1,5 @@
-//Allocates and reutrns a string representing the integer received as an arguments.
+//Allocates and returns a string representing the integer that was received as an arguments.
+//整数の引数で代表文字列を確保して返します。
 
 #include "libft.h"
 
