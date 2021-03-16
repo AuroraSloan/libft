@@ -1,4 +1,5 @@
 //Allocates and returns a new element.
+//新しい要素を確保して、返します。
 
 #include "libft.h"
 
