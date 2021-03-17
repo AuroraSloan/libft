@@ -1,5 +1,4 @@
 //Counts the number of elements in a list.
-//リストの要素を数えます。
 
 #include "libft.h"
 
