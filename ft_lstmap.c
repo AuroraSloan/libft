@@ -2,10 +2,6 @@
 Iterates the list 'lst' and applies the function 'f' to the content of each element
 Creates a new list resulting of the successive applications of the function 'f'.
 The 'del' function is used to delete the content of an element if needed.*/
-/*
-'lst'リストの内容一つ一つ'f'関数にします。
-'f'関数にした要素から新しいリストを作ります。
-いれば、'del'関数で要素の内容を消します。*/
 
 #include "libft.h"
 
