@@ -1,5 +1,4 @@
 //Adds the element 'new' at the beginnig of the list.
-//リストの最初に'new'の要素を追加します。
 
 #include "libft.h"
 
