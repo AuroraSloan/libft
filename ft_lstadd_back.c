@@ -1,5 +1,4 @@
 //Adds the element 'new' at the end of the list.
-//リストの最後に'new'の要素を追加します。
 
 #include "libft.h"
 
