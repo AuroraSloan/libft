@@ -1,5 +1,4 @@
 //Returns the last element of the list.
-//リストの最後の要素を返します。
 
 #include "libft.h"
 
