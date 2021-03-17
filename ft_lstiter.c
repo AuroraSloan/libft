@@ -1,5 +1,4 @@
 //Iterates the list 'lst' and applies the function 'f' to the content of each element.
-//'lst'リストの要素の内容一つ一つ'f'関数にします。
 
 #include "libft.h"
 
