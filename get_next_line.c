@@ -55,7 +55,7 @@ static int	make_new_line(int fd, char **line, char **s_arr, int ret)
 {
 	char	*tmp;
 	size_t	len;
-	int		flag;
+	int	flag;
 
 	flag = 1;
 	len = ft_find_char(s_arr[fd], '\n') - 1;
@@ -83,7 +83,7 @@ static int	make_new_line(int fd, char **line, char **s_arr, int ret)
 int	get_next_line(int fd, char **line)
 {
 	static char	*s_arr[MAX_FD];
-	int			ret;
+	int		ret;
 
 	ret = 1;
 	if (!line || fd < 0 || fd > MAX_FD || BUFFER_SIZE < 1)

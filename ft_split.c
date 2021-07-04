@@ -14,7 +14,7 @@ static char	**free_err(char **arr, int err_len)
 static char	*ft_strldup(char const *s_ptr, int l)
 {
 	char	*dst;
-	int		i;
+	int	i;
 
 	if (!s_ptr)
 		return (NULL);
@@ -62,9 +62,9 @@ static int	word_count(char const *s, char c)
 char	**ft_split(char const *s, char c)
 {
 	char	**dst;
-	int		i;
-	int		len;
-	int		j;
+	int	i;
+	int	len;
+	int	j;
 
 	if (!s)
 		return (NULL);
