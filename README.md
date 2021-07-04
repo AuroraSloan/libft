@@ -17,23 +17,29 @@ It was prohibited to to use any external functions except for "malloc" which was
 |ft_isalpha     |ft_memchr       |ft_strchr     |ft_strncmp   |             |
 
 ### Other functions
-Descriptions for these functions can be found in their .c files.
-
 Using malloc, free, and write as needed was permitted.
 |               |                |              |             |             |
 |---------------|----------------|--------------|-------------|-------------|
 |ft_itoa        |ft_putendl_fd   |ft_putstr_fd  |ft_strjoin   |ft_strtrim   |
 |ft_putchar_fd  |ft_putnbr_fd    |ft_split      |ft_strmapi   |ft_substr    |
-|ft_numlen      |ft_putnbr       |              |             |             |
+|get_next_line  |                |              |             |             |
 
 ### Linked list functions
-Descriptions for these functions can be found in their .c files.
-
-Using malloc, free, and write as needed was permitted.
+Using malloc, free, and write as needed was permitted. Various original and required lst functions.
 |               |                |              |             |             |
 |---------------|----------------|--------------|-------------|-------------|
 |ft_lstadd_back |ft_lstadd_front |ft_lstiter    |ft_lstdelone |ft_lstsize   |
-|ft_lstclear    |ft_lstmap       |ft_listlast   |ft_lstnew    |             |
+|ft_lstclear    |ft_lstmap       |ft_listlast   |ft_lstnew    |ft_lstprint  |
+|ft_lstprint_int|                |              |             |             |
+
+### Original functions
+Using only malloc, free, write, and exit per school rules. 
+
+These are a few funcitons I have added to assist with varioius functions needed for the school's curriculum
+|               |                |              |             |             |
+|---------------|----------------|--------------|-------------|-------------|
+|ft_find_char   |ft_free         |ft_isspace    |ft_numlen    |ft_putchar   |
+|ft_putendl     |ft_putnbr       |ft_putstr     |             |             |
 
 ## Installation
 ```bash
