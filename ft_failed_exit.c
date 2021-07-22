@@ -1,4 +1,5 @@
 #include "libft.h"
+#include <unistd.h>
 
 void	ft_failed_exit(char *message, char *memory)
 {
