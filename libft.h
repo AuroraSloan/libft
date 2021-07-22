@@ -44,6 +44,7 @@ int	ft_isspace(int c);
 int	ft_toupper(int c);
 int	ft_tolower(int c);
 char	*ft_strdup(const char *s1);
+char	*ft_strldup(char const *s_ptr, int l);
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
