@@ -31,7 +31,7 @@ void	ft_putnbr_fd(int n, int fd);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
-size_t	ft_numlen(unsigned long long n, int base);
+size_t	ft_numlen(long long n, int base);
 void	ft_putnbr(int n);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
 int	ft_atoi(const char *str);
