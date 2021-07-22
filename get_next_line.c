@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include "libft.h"
 
-int	err_free(char *s1, char *s2)
+static int	err_free(char *s1, char *s2)
 {
 	if (s1)
 	{
