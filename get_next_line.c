@@ -103,6 +103,8 @@ int	get_next_line(int fd, char **line)
 		return (-1);
 	if (!s_arr[fd] || !ft_strchr(s_arr[fd], '\n'))
 		ret = buffer_flow(fd, s_arr);
+	if (ret == -1)
+		return (-1);
 	if (ret == 0 && !s_arr[fd])
 	{
 		s_arr[fd] = ft_strdup("");
