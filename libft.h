@@ -70,5 +70,6 @@ void	ft_free(void *ptr);
 void	ft_putchar(char c);
 void	ft_putendl(char *s);
 void	ft_putstr(char *s);
+void	ft_failed_exit(char *message, char *memory);
 
 #endif
