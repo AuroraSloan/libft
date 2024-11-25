@@ -4,13 +4,15 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	unsigned int	i;
 	char		*sub_s;
+	size_t		max_len;
 
 	if (!s)
 		return (NULL);
 	if (start > ft_strlen(s))
 		return (ft_strdup(""));
-	if (len > ft_strlen(s))
-		len = ft_strlen(s);
+
+	max_len = ft_strlen(s) - start;
+	len = len > max_len ? max_len : len;
 	sub_s = (char *)malloc(sizeof(*sub_s) * len + 1);
 	if (!(sub_s))
 		return (NULL);
